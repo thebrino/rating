@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  background-color: #121417;
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.none {
+  display: none;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: #252d37;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+/* home_________________________________________________________________________________________________________________________ */
+.home .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.home .content .star {
+  margin-bottom: 30px;
+}
+
+.home .content .star img {
+  background-color: hsla(217, 12%, 63%, 0.25);
+  padding: 15px;
+  border-radius: 50px;
+}
+
+.home .texts {
+  margin-bottom: 30px;
+}
+
+.home .texts h1 {
+  margin-bottom: 10px;
+  font-size: 2.3rem;
+}
+
+.home .texts p {
+  color: hsl(217, 12%, 63%);
+  font-size: 1.2rem;
+  line-height: 30px;
+}
+
+.home .content .rating-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.rating-buttons .buttons {
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: none;
+  background-color: hsla(217, 12%, 63%, 0.25);
+  color: hsl(217, 12%, 63%);
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.rating-buttons .buttons:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: #fff;
+}
+
+.submit {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.submit .submit-btn {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+  background-color: hsl(25, 97%, 53%);
+  padding: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.submit .submit-btn:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+/* thanks_________________________________________________________________________________________________________________________ */
+.thanks .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thanks .content .phone-img,
+.desc,
+.texts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.phone-img {
+  margin-bottom: 30px;
+}
+
+.phone-img img {
+  height: 125px;
+}
+
+.desc {
+  margin-bottom: 30px;
+}
+
+.desc p {
+  background-color: hsla(217, 12%, 63%, 0.25);
+  padding: 5px 18px 5px 18px;
+  border-radius: 50px;
+  color: hsl(25, 97%, 53%);
+}
+
+.thanks .texts h1 {
+  margin-bottom: 10px;
+  font-size: 2.3rem;
+}
+
+.thanks .texts p {
+  color: hsl(217, 12%, 63%);
+  font-size: 1.2rem;
+  line-height: 30px;
+}
