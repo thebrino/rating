@@ -1,13 +1,14 @@
-// var rate = 0;
+var rate = [1, 2, 3, 4, 5];
 
 const thanks = document.getElementById("thanks");
 const submit = document.getElementById("submit");
-var buttons = document.getElementById("button-1").innerHTML;
-const desc = document.getElementById("desc");
-
-// document.querySelector("#submit").addEventListener("click", () => {
-//   document.querySelector("#thanks").classList.remove("none");
-// });
+const buttons = document.getElementById("buttons");
+const button1 = document.getElementById("button1");
+const button2 = document.getElementById("button2");
+const button3 = document.getElementById("button3");
+const button4 = document.getElementById("button4");
+const button5 = document.getElementById("button5");
+var desc = document.getElementById("desc");
 
 submit.addEventListener("click", () => {
   tyScreen();
@@ -17,12 +18,22 @@ function tyScreen() {
   thanks.classList.remove("none");
 }
 
-desc.innerHTML = "you selected " + buttons + " out of 5";
+button1.addEventListener("click", () => {
+  desc.innerHTML = "you selected " + rate[0] + " out of 5";
+});
 
-// buttons.addEventListener("click", () => {
-//   countRate();
-// });
+button2.addEventListener("click", () => {
+  desc.innerHTML = "you selected " + rate[1] + " out of 5";
+});
 
-// function countRate() {
-//   rate = buttons;
-// }
+button3.addEventListener("click", () => {
+  desc.innerHTML = "you selected " + rate[2] + " out of 5";
+});
+
+button4.addEventListener("click", () => {
+  desc.innerHTML = "you selected " + rate[3] + " out of 5";
+});
+
+button5.addEventListener("click", () => {
+  desc.innerHTML = "you selected " + rate[4] + " out of 5";
+});
