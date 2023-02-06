@@ -50,7 +50,7 @@ body {
 }
 
 .home .content .star img {
-  background-color: hsla(217, 12%, 63%, 0.25);
+  background-color: #959eac40;
   padding: 15px;
   border-radius: 50px;
 }
@@ -65,7 +65,7 @@ body {
 }
 
 .home .texts p {
-  color: hsl(217, 12%, 63%);
+  color: #959eac;
   font-size: 1.2rem;
   line-height: 30px;
 }
@@ -82,8 +82,8 @@ body {
   height: 60px;
   background-color: transparent;
   border: none;
-  background-color: hsla(217, 12%, 63%, 0.25);
-  color: hsl(217, 12%, 63%);
+  background-color: #959eac40;
+  color: #959eac;
   border-radius: 50px;
   cursor: pointer;
   font-size: 1rem;
@@ -91,7 +91,12 @@ body {
 }
 
 .rating-buttons .buttons:hover {
-  background-color: hsl(217, 12%, 63%);
+  background-color: #959eac;
+  color: #fff;
+}
+
+.rating-buttons .buttons:focus {
+  background-color: #fb7413;
   color: #fff;
 }
 
@@ -108,7 +113,7 @@ body {
   color: #fff;
   font-size: 1.5rem;
   letter-spacing: 0.1em;
-  background-color: hsl(25, 97%, 53%);
+  background-color: #fb7413;
   padding: 15px;
   border-radius: 50px;
   cursor: pointer;
@@ -116,7 +121,7 @@ body {
 
 .submit .submit-btn:hover {
   background-color: #fff;
-  color: hsl(25, 97%, 53%);
+  color: #fb7413;
 }
 
 /* thanks_________________________________________________________________________________________________________________________ */
@@ -151,10 +156,10 @@ body {
 }
 
 .desc p {
-  background-color: hsla(217, 12%, 63%, 0.25);
+  background-color: #959eac40;
   padding: 5px 18px 5px 18px;
   border-radius: 50px;
-  color: hsl(25, 97%, 53%);
+  color: #fb7413;
 }
 
 .thanks .texts h1 {
@@ -163,7 +168,12 @@ body {
 }
 
 .thanks .texts p {
-  color: hsl(217, 12%, 63%);
+  color: #959eac;
   font-size: 1.2rem;
   line-height: 30px;
+}
+
+/* js_________________________________________________________________________________________________________________________ */
+.orange-btn {
+  background-color: #fb7413;
 }
