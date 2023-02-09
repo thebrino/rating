@@ -21,14 +21,6 @@ body {
   display: none;
 }
 
-/* .none1,
-.none2,
-.none3,
-.none4,
-.none5 {
-  display: none;
-} */
-
 .container {
   width: 500px;
   height: 500px;
@@ -142,7 +134,8 @@ body {
 
 .thanks .content .phone-img,
 .desc,
-.texts {
+.texts,
+.rate-again {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -170,6 +163,10 @@ body {
   color: #fb7413;
 }
 
+.thanks .texts {
+  margin-bottom: 30px;
+}
+
 .thanks .texts h1 {
   margin-bottom: 10px;
   font-size: 2.3rem;
@@ -179,6 +176,26 @@ body {
   color: #959eac;
   font-size: 1.2rem;
   line-height: 30px;
+}
+
+.rate-again {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.rate-again .rate-btn {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  letter-spacing: 0.1em;
+  background-color: #fb7413;
+  padding: 15px;
+  border-radius: 50px;
+  cursor: pointer;
 }
 
 /* js_________________________________________________________________________________________________________________________ */
